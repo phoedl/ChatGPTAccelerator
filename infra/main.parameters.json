@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "openaiApiKey": {
+      "value": "04a9797a0191463782d34af4ab49e3cd"
+    },
+    "openaiInstanceName": {
+      "value": "atworkazurechatgpt"
+    },
+    "openaiDeploymentName": {
+      "value": "azurechatgpt"
+    },
+    "openaiApiVersion": {
+      "value": "2023-05-15"
+    },
+    "name": {
+      "value": "openai-app"
+    }
+  }
+}
