@@ -33,7 +33,7 @@ jobs:
         run: cp -R ./src/.next/standalone ./site-deploy
 
       - name: 📂 Copy static into the .next folder
-        run: cp -R ./src/.next/static ./site-deploy/.next/static
+        run: cp -R ./src/.next/static ./site-deploy/static
 
       - name: 📂 Copy Public folder
         run: cp -R ./src/public ./site-deploy/public
